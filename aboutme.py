@@ -6,6 +6,7 @@ providing personal information and background details.
 """
 
 import streamlit as st
+from utils import load_markdown
 
 def show_aboutme():
     """
@@ -13,4 +14,6 @@ def show_aboutme():
     
     Renders a header for the about me section in the Streamlit app.
     """
-    st.header("About me")
+    with st.container(border=True):
+        md = load_markdown("about_me")
+        st.markdown(md)

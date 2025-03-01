@@ -17,8 +17,6 @@ def show_projects():
     Renders a header for the projects section and loads project content
     from a markdown file for display in the Streamlit app.
     """
-    st.header("Projects")
-    st.markdown("---")
-
-    md = load_markdown("test")
-    st.markdown(md)
+    with st.container(border=True):
+        st.header("Projects")
+        st.markdown("---")

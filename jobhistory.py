@@ -14,4 +14,6 @@ def show_jobhistory():
     
     Renders a header for the job history section in the Streamlit app.
     """
-    st.header("Job History")
+    with st.container(border=True):
+        st.header("Job History")
+        st.markdown("---")

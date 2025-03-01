@@ -14,4 +14,6 @@ def show_education():
     
     Renders a header for the education section in the Streamlit app.
     """
-    st.header("Education")
+    with st.container(border=True):
+        st.header("Education")
+        st.markdown("---")
