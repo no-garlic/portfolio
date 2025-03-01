@@ -63,7 +63,7 @@ with st.sidebar:
         menu_icon="file-earmark-text",
         default_index=0,
         styles={
-            "menu-title": {"font-size": "28px", "font-weight": "700" },
+            "menu-title": {"font-size": "26px", "font-weight": "700" },
             "container": {"padding": "20"},
             "icon": {"color": "#fff", "font-size": "22px"}, 
             "nav-link": {"font-size": "20px", "text-align": "left", "margin":"4px", "--hover-color": "#c99"},
