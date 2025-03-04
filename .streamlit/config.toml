@@ -6,3 +6,8 @@ primaryColor = "darkred"
 #secondaryBackgroundColor = "#3183D1"
 #textColor = "#03080C"
 #font = "sans serif"
+
+[server]
+headless = true
+#port = $PORT
+enableCORS = false

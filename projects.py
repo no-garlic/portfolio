@@ -10,7 +10,7 @@ import streamlit_antd_components as sac
 
 from utils import load_markdown
 
-from portfolio_projects.pdf_search_rag_app.app import PdfSearchRagApp
+# from portfolio_projects.pdf_search_rag_app.app import PdfSearchRagApp
 
 
 def show_projects():
@@ -40,7 +40,7 @@ def show_projects():
             with st.container(border=True):
                 if menu_index == 0 or menu_index is None:
                     st.markdown("### Select a project from the menu")
-                elif menu_index == 1:
-                    PdfSearchRagApp().streamlit_main(subpage=True)
+                #elif menu_index == 1:
+                #    PdfSearchRagApp().streamlit_main(subpage=True)
                 else:
                     st.markdown("### Coming Soon...")
